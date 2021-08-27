@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: 'Mulish', sans-serif;
+}
+#container{
+    position: relative;
+    display: inline-block;
+}
+#pageHeader__title {
+    font-family: 'Mulish', sans-serif;
+    padding-top: 60px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    left: 300px;
+
+}
+
+#pageHeader__img {
+    margin: 0px 0px 0px -14px;
+
+}
+
+h2{
+    margin: 0px;
+
+}
+#supportingText   { display: block;
+    right: 20px;
+    padding: 0px;
+    position: absolute;
+}
+
+#linkList {
+        margin-right: 100px;
+      }
+
+#linkList ul {
+        display: block;
+        left: 90%;
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+}

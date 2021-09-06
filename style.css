@@ -1,47 +1,67 @@
-*{
-    background-color: black;
-    color:white;
-    font-family: 'Mulish', sans-serif;
+* {
+  background-color: black;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  width: 100%;
 }
-#container{
-    position: relative;
-    display: inline-block;
+#container {
+  position: relative;
+  display: inline-block;
 }
 #pageHeader__title {
-    font-family: 'Mulish', sans-serif;
-    padding-top: 60px;
-    margin: 0px 0px 0px 0px;
-    position: absolute;
-    left: 300px;
-
+  font-family: "Mulish", sans-serif;
+  font-size: 250%;
+  padding-top: 70px;
+  position: absolute;
+  left: 700px;
+}
+.imagen {
+  width: 100%;
 }
 
 #pageHeader__img {
-    margin: 0px 0px 0px -14px;
-
+  margin: 0px 0px 0px -14px;
 }
 
-h2{
-    margin: 0px;
-
-}
-#supportingText   { display: block;
-    right: 20px;
-    padding: 0px;
-    position: absolute;
+h2 {
+  margin: 0px;
 }
 
-#linkList {
-        margin-right: 100px;
-      }
+#supportingText {
+  display: block;
+  position: absolute;
+  margin-left: 3%;
+}
 
-#linkList ul {
-        display: block;
-        left: 90%;
-        list-style: none;
-        margin: 0px 0px 0px 0px;
-        padding: 0px;
-        position: absolute;
-        width: 100px;
-        text-align: right;
+#columnRight {
+  margin-left: 75%;
+  position: absolute;
+}
+
+#lselect ul li {
+  margin-top: 1.5%;
+  border-bottom: 3px dotted #ffffff;
+}
+
+#larchives ul li a {
+  text-decoration: none;
+}
+
+#explanation {
+  width: 70%;
+}
+#explanationn {
+  width: 70%;
+}
+
+#participation {
+  width: 70%;
+}
+
+#benefits {
+  width: 70%;
+}
+
+h3 span {
+  font-style: bold;
 }
